@@ -50,10 +50,12 @@ class ListAdapterCustom(private val context: Context,
             viewHolder.txtRating?.text = userDto.description
 
 
+            if (userDto.imageHref!=null)
             Picasso.get()
-                    .load(userDto.imageHref)
+                    .load(userDto.imageHref).error(R.drawable.noimage)
                     .into(viewHolder.imageview)
-            viewHolder.imageview
+            else
+            viewHolder.imageview!!.setImageResource(R.drawable.noimage)
 
         }
         return view as View
