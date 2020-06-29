@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c62c21</color>
+    <color name="colorPrimaryDark">#A42218</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBtnColorRed">#ED5B5C</color>
+    <color name="colorRedText">#EC5A5B</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorRegisterText">#666666</color>
+    <color name="colorLightGrey">#B2B2B2</color>
+    <color name="colorGreenButton">#36AFA6</color>
+    <color name="colorProfileRed">#F15D5D</color>
+    <color name="colroProfileGrey">#656565</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+</resources>
